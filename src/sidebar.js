@@ -255,9 +255,13 @@ module.exports = {
       type: "category",
       label: "Permissions and relationships",
       items: [
-        {
-          Introduction: ["keto/index", "keto/install", "keto/performance"],
-        },
+        "keto/index",
+        "keto/guides/simple-access-check-guide",
+        "keto/update-relationships",
+        "keto/guides/userset-rewrites",
+        "keto/middleware-examples",
+        "keto/guides/list-api-display-objects",
+        "keto/guides/expand-api-display-who-has-access",
         {
           Concepts: [
             "keto/concepts/relation-tuples",
@@ -273,14 +277,10 @@ module.exports = {
         {
           Guides: [
             "keto/secure",
-            "keto/guides/simple-access-check-guide",
-            "keto/guides/list-api-display-objects",
-            "keto/guides/expand-api-display-who-has-access",
             "keto/guides/production",
             "keto/guides/v0.7-migration",
             "keto/guides/migrating-legacy-policies",
             "keto/guides/rbac",
-            "keto/guides/userset-rewrites",
             "keto/guides/access-control-inheritance",
             "keto/guides/access-control-list-design-best-practices",
             "keto/guides/upgrade",
@@ -308,6 +308,9 @@ module.exports = {
         },
         {
           SDKs: ["keto/sdk/index", "keto/sdk/go"],
+        },
+        {
+          OLD: ["keto/install", "keto/performance"],
         },
       ],
     },
