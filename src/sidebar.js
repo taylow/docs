@@ -256,12 +256,7 @@ module.exports = {
       label: "Permissions and relationships",
       items: [
         {
-          Introduction: [
-            "keto/index",
-            "keto/install",
-            "keto/performance",
-            "keto/quickstart",
-          ],
+          Introduction: ["keto/index", "keto/install", "keto/performance"],
         },
         {
           Concepts: [
@@ -292,7 +287,7 @@ module.exports = {
           ],
         },
         {
-          Examples: ["keto/examples/olymp-file-sharing"],
+          Examples: ["keto/quickstart", "keto/examples/olymp-file-sharing"],
         },
         {
           Reference: [
